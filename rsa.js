@@ -60,8 +60,8 @@ let fetchRandomNumbers = async() => {
 }
 
 
-var gcd = function (n, m) {
-  var r = 0;
+let gcd = function (n, m) {
+  let r = 0;
   while (n !== 0) {
     r = m % n;
     m = n;
